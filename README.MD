@@ -12,3 +12,11 @@ el archivo index.html es un wrapper donde inicia todo el proyecto de ahi todo so
 
 phpLibrary: aqui esta la conexion a la base de datos, los controladores son donde vienen los templates de html con php, y mandan a llamar la biblioteca de mysqlConnect.php, 
 el proyecto se necesita crear con un routing virtual tipo poner las direccione en los enlaces pero lo que se repite se puede poner en algunas funciones y mandarlas a llamar como en la parte de layout
+
+hay muchos ejemplos de como realice esto en:
+
+git con todos los proyectos: https://github.com/l20j45/coompiladoBootstrap
+deployados :
+https://github.com/l20j45/Podcast-Fm
+https://github.com/l20j45/udemy_index_clone
+https://github.com/l20j45/meetiPage

@@ -1,7 +1,7 @@
 // Reescribir variables de bootstrap
 $negro: #262626;
 $blanco: #FFF;
-$naranja: #FFF;
+$naranja: #dd1313;
 
 
 //colores
@@ -15,8 +15,7 @@ $dark: $negro;
 // $fuente-textos: 'Roboto',
 // sans-serif;
 
-$headings-font-family: $fuente-headings;
-$font-family-base: $fuente-textos;
+
 $headings-font-weight: 900;
 
 $h1-font-size:4.4rem;
@@ -67,4 +66,4 @@ $card-border-width:0;
 
 // importar bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
-@import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+

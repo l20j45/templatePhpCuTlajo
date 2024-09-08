@@ -1,4 +1,4 @@
-npm i --save-dev gulp gulp-purgecss gulp-rename bootstrap gulp-imagemin purgecss sass
+npm i --save-dev gulp gulp-purgecss gulp-rename bootstrap gulp-imagemin purgecss sass csso
 
 // Scripts
 
@@ -7,5 +7,6 @@ npm i --save-dev gulp gulp-purgecss gulp-rename bootstrap gulp-imagemin purgecss
     "compilar:sass": "sass src/scss:build/css --watch",
     "purgar": "purgecss --css build/css/style.css --content index.html --output build/purgado",
     "postbuild": "node environments/postbuild.js",
+    "postbuildMinificado": "node environments/postbuildMinificado.js",
     "minificarimagenes": "imagemin src/img/* --out-dir=build/img/",
   },

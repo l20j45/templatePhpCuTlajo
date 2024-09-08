@@ -8,6 +8,7 @@
     "compilar:sass": "sass src/scss:build/css --watch",
     "purgar": "purgecss --css build/css/style.css --content index.html --output build/purgado",
     "postbuild": "node environments/postbuild.js",
+    "postbuildMinificado": "node environments/postbuildMinificado.js",
     "minificarimagenes": "imagemin src/img/**/* --out-dir=build/img/"
   },
   "author": "Daniel Rojas",
@@ -22,6 +23,7 @@
     "sass": "^1.39.2"
   },
   "dependencies": {
-    "bootstrap-icons": "^1.11.3"
+    "bootstrap-icons": "^1.11.3",
+    "csso": "^5.0.5"
   }
 }
